@@ -17,4 +17,8 @@ public class Quoter {
 	public double getBookPrice(String x) {
 		return Integer.parseInt(x) < 6 && Integer.parseInt(x) > 0 ? prices.get(x) : 0.0;
 	}
+	
+	public void dummy(){
+		
+	}
 }
